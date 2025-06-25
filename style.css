@@ -1,5 +1,99 @@
 .header {
   display: flex;
-  flex-grow: 1;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  background-color: #1f2937;
+  padding: 20px;
+}
+
+.toplinks {
+  display: flex;
+}
+
+h3 {
+  font-weight: 24px;
+  color: #f9faf8;
+}
+
+li {
+  color: #e5e7eb;
+  list-style-type: none;
+}
+
+.maintext {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.maintext h1 {
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.maintext p {
+  font-weight: 18px;
+  color: #e5e7eb;
+}
+
+.maintext button {
+  border-radius: 10px;
+  margin: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Roboto";
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.quote {
+  display: flex;
+  background-color: #e5e7eb;
+  font-family: "Roboto";
+  font-style: italic;
   justify-content: center;
+}
+
+.quote p {
+  padding: 60px;
+}
+
+.card {
+  display: flex;
+  border-radius: 6px;
+  margin: 40px;
+  background-color: #3882f6;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cardtext p {
+  font-family: "Roboto";
+  color: #f9faf8;
+}
+
+.cardtext p2 {
+  font-family: "Roboto";
+  color: #f9faf8;
+}
+
+.card button {
+  margin: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Roboto";
+  background-color: #3882f6;
+  border-radius: 10px;
+  border-color: #f9faf8;
+  color: #f9faf8;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  padding: 20px;
+  align-items: center;
 }
