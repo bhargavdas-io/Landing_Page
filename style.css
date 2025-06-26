@@ -1,20 +1,32 @@
 .header {
   display: flex;
-  flex-direction: column;
   font-family: "Roboto", sans-serif;
   background-color: #1f2937;
-  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 20px 40px;
+  z-index: 1000;
 }
 
-/* TODO: Separate header and section 1  */
+/* TODO: Separate header and section 1 : Done */
 
-.toplinks {
-  display: flex;
-}
+/* TODO2: Align Header properly */
 
-h3 {
-  font-weight: 24px;
+/* TODO3: Align header links to top right corner */
+
+.header logo {
+  font-family: "Roboto";
   color: #f9faf8;
+  font-weight: 700;
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -40,13 +52,27 @@ li {
 }
 
 .sectionone button {
-  border-radius: 10px;
-  margin: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: "Roboto";
   background-color: #3882f6;
   color: #f9faf8;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px;
+  /* margin: 10px; */
+}
+
+.centerimage {
+  display: flex;
+  padding: 50px;
+  align-items: center;
 }
 
 .sectiontwo {
@@ -79,6 +105,8 @@ li {
   font-size: 20px;
   font-weight: 700;
 }
+
+/* TODO: Align text correctly */
 
 .sectionthree {
   display: flex;
