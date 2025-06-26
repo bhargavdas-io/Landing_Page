@@ -80,9 +80,6 @@ li {
 }
 
 .box {
-  /* display: flex;
-  flex-grow: 1;
-  flex-wrap: wrap; */
   border-style: solid;
   border-width: 2px;
   background-color: #f9faf8;
@@ -102,14 +99,25 @@ li {
 
 .sectionthree {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 60px;
   background-color: #e5e7eb;
   font-family: "Roboto";
   font-style: italic;
+  justify-content: center;
 }
 
-.sectionthree p {
-  text-align: center;
-  padding: 60px;
+.quote {
+  font-family: "Roboto";
+}
+
+.quote-author {
+  font-weight: 400;
+  color: #1f2937;
+  background-color: #e5e7eb;
+  margin-top: 20px;
 }
 
 .card {
