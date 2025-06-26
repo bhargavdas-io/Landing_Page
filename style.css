@@ -22,23 +22,24 @@ li {
   list-style-type: none;
 }
 
-.maintext {
+.sectionone {
   display: flex;
-  flex-wrap: wrap;
-  margin: 50px;
+  /* flex-wrap: wrap; */
+  background-color: #1f2937;
+  font-family: "Roboto";
 }
 
-.maintext h1 {
+.sectionone h1 {
   font-weight: 900;
   color: #f9faf8;
 }
 
-.maintext p {
+.sectionone p {
   font-weight: 18px;
   color: #e5e7eb;
 }
 
-.maintext button {
+.sectionone button {
   border-radius: 10px;
   margin: 10px;
   padding-left: 15px;
