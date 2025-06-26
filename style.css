@@ -10,13 +10,7 @@
   z-index: 1000;
 }
 
-/* TODO: Separate header and section 1 : Done */
-
-/* TODO2: Align Header properly */
-
-/* TODO3: Align header links to top right corner */
-
-.header logo {
+.header .logo {
   font-family: "Roboto";
   color: #f9faf8;
   font-weight: 700;
@@ -36,7 +30,6 @@ li {
 
 .sectionone {
   display: flex;
-  /* flex-wrap: wrap; */
   background-color: #1f2937;
   font-family: "Roboto";
 }
@@ -66,7 +59,6 @@ li {
   display: flex;
   flex-wrap: wrap;
   padding: 80px;
-  /* margin: 10px; */
 }
 
 .centerimage {
@@ -123,26 +115,28 @@ li {
 .card {
   display: flex;
   border-radius: 6px;
-  margin: 40px;
+  margin: 80px;
   background-color: #3882f6;
   justify-content: center;
-  gap: 20px;
 }
 
-.cardtext p {
+.card .cardtext {
   font-family: "Roboto";
   color: #f9faf8;
+  padding: 30px;
 }
 
-.cardtext p2 {
-  font-family: "Roboto";
-  color: #f9faf8;
+.card .cardbutton {
+  display: flex;
+  padding: 30px;
+  margin: 30px;
 }
 
 .card button {
-  margin: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
   font-family: "Roboto";
   background-color: #3882f6;
   border-radius: 10px;
@@ -158,4 +152,5 @@ footer {
   background-color: #1f2937;
   padding: 20px;
   align-items: center;
+  position: sticky;
 }
